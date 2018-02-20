@@ -1,0 +1,16 @@
+{
+  "name": "armybot",
+  "version": "1.0.0",
+  "description": "armybot for Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx micro-bot -e .env index.js"
+  },
+  "author": "Anton Kostenich",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "micro-bot": "^2.2.2"
+  }
+}
