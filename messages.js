@@ -10,6 +10,10 @@ const time = ( from, time ) => `
 *${from.first_name || from.username}*, тебе осталось косить *${time}* дней.
 `
 
+const rest = ( from ) => `
+*${from.first_name || from.username}*, отдыхай, братишка. Призыв закончился, а следующий не начался.
+`
+
 const messagesToReact = /(армия)|(откос)|(косить)|(армейка)|(А Р М И Я)/i
 
-module.exports = { help, time, messagesToReact }
+module.exports = { help, time, rest, messagesToReact }
