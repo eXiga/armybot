@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "start": "npx micro-bot -e .env index.js",
-    "now-start": "npx micro-bot -d ${NOW_URL}"
+    "deploy": "git push heroku master"
   },
   "author": "Anton Kostenich",
   "license": "ISC",
