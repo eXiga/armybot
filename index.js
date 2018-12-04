@@ -15,7 +15,7 @@ bot.command('/help', async ({ from, replyWithMarkdown, botInfo }) =>
 );
 
 bot.command('/time', async ({ from, replyWithMarkdown, botInfo }) =>
-    replyWithMarkdown(messages.time( from, calculator.calculateTimeInDays( todayDate, targetDate )))
+    replyWithMarkdown(messages.rest( from ))
 );
 
 module.exports = bot;
