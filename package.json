@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "test",
-    "start": "npx micro-bot -e .env index.js",
+    "start": "npx micro-bot index.js",
     "deploy": "git push heroku master"
   },
   "author": "Anton Kostenich",
