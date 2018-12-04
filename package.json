@@ -15,6 +15,6 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "micro-bot": "^2.2.2"
+    "micro-bot": "^2.5.1"
   }
-} 
+}
