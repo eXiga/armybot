@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "armybot for Telegram",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "test": "test",
     "start": "npx micro-bot -e .env index.js",
