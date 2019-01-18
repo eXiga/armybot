@@ -8,13 +8,13 @@
   },
   "scripts": {
     "test": "test",
-    "start": "npx micro-bot index.js",
+    "start": "./node_modules/micro-bot/bin/micro-bot index.js",
     "deploy": "git push heroku master"
   },
   "author": "Anton Kostenich",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "micro-bot": "^2.5.1"
-  }
+  },
+  "devDependencies": {}
 }
