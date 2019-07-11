@@ -1,5 +1,5 @@
 const config = {
-  isLawInProgress: true,
+  isLawInProgress: false,
   targetDate: '2019-06-1'  
 };
 
