@@ -10,4 +10,4 @@ const calculateTimeInDays = (from, to) => {
     return Math.floor((toUTC - fromUTC) / msecPerDay);
 };
 
-module.exports = { calculateTimeInDays }
+module.exports = calculateTimeInDays;
